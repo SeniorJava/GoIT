@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+</head>
+<body>
+<p><del>Когда много людей</del>, <ins>используя </ins>разные инструменты, пишут и редактируют css,
+    со временем этот css может получиться очень запутанным, неконсистентым и
+    в целом начинает выглядеть плохо. Например, кому-то удобнее писать
+    вендорные префиксы в одном порядке, кому-то — в другом, кто-то ставит
+    кавычки вокруг url, кто-то — нет, а кто-нибудь фикся срочную багу к релизу
+    мог бы, к примеру, написать <dfn>position: relative</dfn> в начале блока свойств,
+    незаметив что где-нибудь внизу между color и box-shadow, уже есть
+    <samp>position:absolute</samp>, и долго гадать, почему у него ничего не работает.
+    <kdd>Ctrl</kdd>
+    <code>
+    .block {
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
+    z-index: 2;
+    position: absolute;
+    height: 2px;
+    width: 2px;
+    color: #FFFFFF;
+    }
+    </code>
+</p>
+</body>
+</html>
