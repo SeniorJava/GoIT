@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+</head>
+<body>
+<form action="/" method="post">
+    <label for="name">Name</label>
+    <br>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label>
+        Email
+        <br>
+        <input type="email">
+    </label>
+    <br>
+    <br>
+    <label>
+        Sex
+        <br>
+        <input type="radio" name="sex" value="male">Male
+        <input type="radio" name="sex" value="female">Female
+    </label>
+    <br>
+    <br>
+    <label>
+        Current status
+        <br>
+        <input type="checkbox" name="status" value="student"> Student
+        <br>
+        <input type="checkbox" name="status" value="employed"> Employed
+        <br>
+        <input type="checkbox" name="status" value="unemployed"> Unemployed
+    </label>
+    <br>
+    <br>
+    <label>
+        Month and Year of Birth
+        <br>
+        <select name="month" id="month">
+            <option value="01">January</option>
+            <option value="02">February</option>
+            <option value="03">Math</option>
+        </select>
+        <select name="year" id="year">
+            <option value="1889">1889</option>
+            <option value="1989">1989</option>
+            <option value="2555">2555</option>
+        </select>
+    </label>
+    <br>
+    <br>
+    <label>
+        Skills and Technologies
+        <br>
+        <select name="skills" multiple size="10">
+            <option value="Tech skills" disabled>Tech skills</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="git">git</option>
+            <option value="Soft skills" disabled>Soft skills</option>
+            <option value="Time management">Time management</option>
+            <option value="Proactivity">Proactivity</option>
+            <option value="Teamwork">Teamwork</option>
+            <option value="Leadership">Leadership</option>
+        </select>
+    </label>
+    <br>
+    <br>
+    <label>
+        Photo
+        <br>
+        <input type="file">
+    </label>
+    <br>
+    <br>
+    <label>
+        Comments
+        <br>
+        <textarea name="comments" cols="30" rows="5"></textarea>
+    </label>
+    <br>
+    <br>
+    <input type="submit" value="Save">
+</form>
+</body>
+</html>
