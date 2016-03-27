@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+article > p:first-of-type {
+    font-weight: bolder;
+}
+
+article > p:last-of-type {
+    color: #999;
+
+}
+
