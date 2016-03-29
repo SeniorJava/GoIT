@@ -1,0 +1,37 @@
+
+.red  {
+    background-color: red;
+    color:white;
+}
+
+.green {
+    background-color: green;
+    color:white;
+}
+
+.blue {
+    background-color: blue;
+    color:white;
+}
+
+span {
+    border-radius: 22%;
+    padding: 4px;
+}
+
+label {
+    text-decoration: underline;
+}
+
+label[for="red"] {
+    color: red;
+}
+
+label[for="green"] {
+    color: green;
+}
+
+label[for="blue"] {
+    color: blue;
+}
+
