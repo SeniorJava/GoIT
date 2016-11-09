@@ -1,0 +1,33 @@
+
+body{
+    font-family: sans-serif;
+}
+
+.parent {
+    box-sizing: border-box;
+    width: 295px;
+    min-height: 465px;
+    background-color: white;
+    border: 4px solid #ee8129;
+    border-radius: 5px;
+    box-shadow:0 0 10px #87b2cb;
+}
+
+.header {
+
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ee8129;
+    padding: 1px;
+    font-size: 24px;
+    height: 72px;
+}
+
+ul {
+    list-style: none;
+}
+
+.price-body {
+    background-color: white;
+}
